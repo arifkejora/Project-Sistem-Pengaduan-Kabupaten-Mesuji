@@ -66,7 +66,7 @@
           Layanan Pengaduan Masyarakat Dinas Pertanian Mesuji
         </h1>
         <p class="leading-normal text-1xl mb-8">
-          Awikwok awokwok asek asek jos
+          Lorem Ipsum
         </p>
         <button
           class="mx-auto lg:mx-0 bg-blue-500 text-white font-bold rounded-md my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
