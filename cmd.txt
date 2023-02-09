@@ -1,0 +1,12 @@
+download composer
+
+buka folder sistem
+klik shift + klik kanan - pilih open commad/windows shell
+ketik "composer update"
+buat db nama "pengaduan" di xampp mysql phpmyadmin
+kembali ke cmd
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+php artisan storage:link
+php artisan serve
