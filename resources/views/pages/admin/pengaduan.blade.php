@@ -3,14 +3,15 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PENGKAT | Pengaduan Masyarakat</title>
-  
+
   <style>
     .thead{
     background-color: #3B82F6;
     color: #ffffff;
-    
+
     }
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -35,7 +36,7 @@
       </thead>
       <tbody>
         @foreach($pengaduan as $item)
-          
+
         <tr>
           <td>{{ $item->id }} </td>
           <td>{{ $item->user_nik }}</td>
