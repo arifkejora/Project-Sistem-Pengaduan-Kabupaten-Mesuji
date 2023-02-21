@@ -21,7 +21,7 @@
                         <span class="text-gray-700 dark:text-gray-400">NIK</span>
                         <input
                             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
-                            type="text" placeholder="NIK" value="{{ old('nik') }}" name="nik" required></input>
+                            type="number" placeholder="NIK" value="{{ old('nik') }}" name="nik" required></input>
                     </label>
 
                     <label class="block mt-4 text-sm">
@@ -44,7 +44,7 @@
                         <span class="text-gray-700 dark:text-gray-400">No. Hp</span>
                         <input
                             class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
-                            type="text" placeholder="0123456789" value="{{ old('phone') }}" name="phone"
+                            type="number" placeholder="0123456789" value="{{ old('phone') }}" name="phone"
                             required></input>
                     </label>
 

@@ -16,7 +16,7 @@
             <div>
                 <x-label for="nik" :value="__('NIK')" />
 
-                <x-input id="nik" class="block mt-1 w-full" type="text" name="nik" :value="old('nik')" required
+                <x-input id="nik" class="block mt-1 w-full" type="number" name="nik" :value="old('nik')" required
                     autofocus />
             </div>
 
@@ -40,7 +40,7 @@
             <div class="mt-4">
                 <x-label for="phone" :value="__('No. HP')" />
 
-                <x-input id="phone" class="block mt-1 w-full" type="text" name="phone" :value="old('phone')"
+                <x-input id="phone" class="block mt-1 w-full" type="number" name="phone" :value="old('phone')"
                     required />
             </div>
 

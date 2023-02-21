@@ -67,9 +67,6 @@
                 <h1 class="my-4 text-4xl font-bold leading-tight">
                     Layanan Pengaduan Masyarakat Dinas Pertanian Mesuji
                 </h1>
-                <p class="leading-normal text-1xl mb-8">
-                    Lorem Ipsum
-                </p>
                 <button
                     class="mx-auto lg:mx-0 bg-blue-500 text-white font-bold rounded-md my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                     <a href="{{ url('login') }}">Laporkan!</a>
@@ -159,7 +156,7 @@
     <!-- Footer -->
     <footer class="text-center font-medium bg-blue-200 py-5">
         © {{ now()->year }} Dinas Pertanian Mesuji | By
-        <a href="https://arifwidiarto.netlify.app" class="text-blue-500" target="_blank">Iko Prayoga</a>
+        <a href="https://instagram.com/ikoyoga12" class="text-blue-500" target="_blank">Iko Prayoga</a>
     </footer>
     @include('sweetalert::alert')
 </body>
